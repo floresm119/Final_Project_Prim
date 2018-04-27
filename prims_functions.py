@@ -42,4 +42,5 @@ def min_valid_incident_edges(G,T):
             min_edge = e
     return min_edge
 print(min_valid_incident_edges)
+G.draw_subgraph(T)
     
