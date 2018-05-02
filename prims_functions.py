@@ -11,7 +11,7 @@ T = ({0,1},[(0,1),(0,2)])
 
 def initial_tree(initial_vertex):
     return ({initial_vertex},[])
-print(initial_tree(3))
+print('The initial tree value is', initial_tree(3))
 
 def cost(G,e):
     return G.edge_dict()[e]
